@@ -32,10 +32,10 @@ Additionally, the script uses your Confluent Cloud username and password, which 
 
 # Pre-requistites
 1. Install Confluent Cloud CLI
-   *Darwin/x64 - https://s3-us-west-2.amazonaws.com/confluent.cloud/ccloud-cli/archives/1.7.0/ccloud_v1.7.0_darwin_amd64.tar.gz 
-   *Windows/x64 - https://s3-us-west-2.amazonaws.com/confluent.cloud/ccloud-cli/archives/1.7.0/ccloud_v1.7.0_windows_amd64.zip
-   *Linux/x64 - https://s3-us-west-2.amazonaws.com/confluent.cloud/ccloud-cli/archives/1.7.0/ccloud_v1.7.0_linux_amd64.tar.gz
-   *Linux/386 - https://s3-us-west-2.amazonaws.com/confluent.cloud/ccloud-cli/archives/1.7.0/ccloud_v1.7.0_linux_386.tar.gz
+   * Darwin/x64 - https://s3-us-west-2.amazonaws.com/confluent.cloud/ccloud-cli/archives/1.7.0/ccloud_v1.7.0_darwin_amd64.tar.gz 
+   * Windows/x64 - https://s3-us-west-2.amazonaws.com/confluent.cloud/ccloud-cli/archives/1.7.0/ccloud_v1.7.0_windows_amd64.zip
+   * Linux/x64 - https://s3-us-west-2.amazonaws.com/confluent.cloud/ccloud-cli/archives/1.7.0/ccloud_v1.7.0_linux_amd64.tar.gz
+   * Linux/386 - https://s3-us-west-2.amazonaws.com/confluent.cloud/ccloud-cli/archives/1.7.0/ccloud_v1.7.0_linux_386.tar.gz
 2. Install Confluent Platform
 3. Install jq
 

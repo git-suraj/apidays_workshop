@@ -37,6 +37,9 @@ Additionally, the script uses your Confluent Cloud username and password, which 
    * Linux/x64 - https://s3-us-west-2.amazonaws.com/confluent.cloud/ccloud-cli/archives/1.7.0/ccloud_v1.7.0_linux_amd64.tar.gz
    * Linux/386 - https://s3-us-west-2.amazonaws.com/confluent.cloud/ccloud-cli/archives/1.7.0/ccloud_v1.7.0_linux_386.tar.gz
 2. Install Confluent Platform
+   * zip - curl -O http://packages.confluent.io/archive/5.5/confluent-5.5.1-2.12.zip
+   * tar - curl -O curl -O http://packages.confluent.io/archive/5.5/confluent-5.5.1-2.12.tar.gz
+   * Follow instructions on - https://docs.confluent.io/5.5.1/quickstart/ce-quickstart.html#ce-quickstart
 3. Install jq
 
 # Getting started

@@ -37,6 +37,9 @@ Additionally, the script uses your Confluent Cloud username and password, which 
 3. Replace the `<USER_EMAIL>` and `<PASSWORD>` fields in the `.apidays` file with your Confluent Cloud credentials. This file will be ignored by git.
 4. Run the script appropriate to your choice of cloud provider. Eg: `./runme-aws`
 
+# Destroying the cluster
+1. Navigate to apidays_workshop/examples-5.5.1-post/ccloud
+2. Run the `stop.sh` command which you would see at the end of `runme` command
 
 # Going further
 Confluent have a large number of examples available online. Visit https://github.com/confluentinc/examples

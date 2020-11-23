@@ -1,5 +1,5 @@
 # Introduction
-This repository is used to test a local Confluent Platform cluster integrating with a Confluent Cloud cluster. It was used as the basis of a demonstration during the APIdays workshop, and is provided for participants to try out the scripted process.
+This repository is used to test a local Confluent Platform cluster integrating with a Confluent Cloud cluster. It was used as the basis of a demonstration during the Confluent Cloud workshop, and is provided for participants to try out the scripted process.
 
 This repo demonstrates a fully scripted event streaming system that spans on-prem and fully-managed on cloud. Most of the setup commands use the "ccloud" cli - the Confluent Cloud CLI. The "start-aws" (and similar) scripts in this demo assume you have download and unpacked Confluent Platform on your laptop https://www.confluent.io/download. Alternatively use examples-5.5.1-post/ccloud/start-docker.sh to start the Dockerized version of this demo.
 
@@ -45,12 +45,12 @@ Additionally, the script uses your Confluent Cloud username and password, which 
 
 # Getting started
 1. Clone the repository
-2. Copy `.apidays.default` to `.apidays`. 
-3. Replace the `<USER_EMAIL>` and `<PASSWORD>` fields in the `.apidays` file with your Confluent Cloud credentials. This file will be ignored by git.
+2. Copy `.ccworkshop.default` to `.ccworkshop`. 
+3. Replace the `<USER_EMAIL>` and `<PASSWORD>` fields in the `.ccworkshop` file with your Confluent Cloud credentials. This file will be ignored by git.
 4. Run the script appropriate to your choice of cloud provider. Eg: `./runme-aws`
 
 # Destroying the cluster
-1. Navigate to apidays_workshop/examples-5.5.1-post/ccloud
+1. Navigate to confluentcloud_workshop/examples-5.5.1-post/ccloud
 2. Run the `stop.sh` command which you would see at the end of `runme` command
 
 # Going further

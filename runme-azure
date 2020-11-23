@@ -1,5 +1,5 @@
 #!/bin/ksh
-source ./.apidays
+source ./.ccworkshop
 apidays
 ccloud
 set -x

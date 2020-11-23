@@ -1,6 +1,6 @@
 #!/bin/ksh
 source ./.ccworkshop
-apidays
+ccworkshop
 ccloud
 set -x
 export CLUSTER_CLOUD=azure 

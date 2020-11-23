@@ -30,7 +30,7 @@ Also note that this repository is designed to demonstrate approaches to scriptab
 
 Additionally, the script uses your Confluent Cloud username and password, which is simple for the demonstration, but **not suitable for being shared across a team**. Use API keys and service accounts if you plan on operationalising these scripts.
 
-# Pre-requistites
+# Pre-requisites
 1. Install Confluent Cloud CLI
    * Darwin/x64 - https://s3-us-west-2.amazonaws.com/confluent.cloud/ccloud-cli/archives/1.7.0/ccloud_v1.7.0_darwin_amd64.tar.gz 
    * Windows/x64 - https://s3-us-west-2.amazonaws.com/confluent.cloud/ccloud-cli/archives/1.7.0/ccloud_v1.7.0_windows_amd64.zip
@@ -41,9 +41,9 @@ Additionally, the script uses your Confluent Cloud username and password, which 
    * tar - curl -O curl -O http://packages.confluent.io/archive/5.5/confluent-5.5.1-2.12.tar.gz
    * Follow instructions on - https://docs.confluent.io/5.5.1/quickstart/ce-quickstart.html#ce-quickstart
 3. Install jq
+4. Have a Confluent Cloud account in place
 
 # Getting started
-
 1. Clone the repository
 2. Copy `.apidays.default` to `.apidays`. 
 3. Replace the `<USER_EMAIL>` and `<PASSWORD>` fields in the `.apidays` file with your Confluent Cloud credentials. This file will be ignored by git.
